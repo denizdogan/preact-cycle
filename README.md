@@ -24,7 +24,7 @@ const App = ({ value, mutation }) => (
   </div>
 );
 
-render(App, { value: 0 });
+render(App, { value: 0 }, document.body);
 ```
 
 
